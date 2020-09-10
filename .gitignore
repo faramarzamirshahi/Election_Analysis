@@ -1,3 +1,11 @@
+my ignore list
+drill*
+Python_practice.py
+.gitignore
+Resources/test*
+test*
+testing*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
