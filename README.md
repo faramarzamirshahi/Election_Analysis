@@ -13,7 +13,7 @@ A Colorado board of election employees needs the following information to comple
 8. The county with the highest turnout
 
 ## Resources
-- Data source: election_results.csv
+- Data source: `election_results.csv`
 - Software: Python 3.8.5, Visual Studio Code Version 1.48.2
 
 ## Results
@@ -32,21 +32,21 @@ The Analysis of the election shows that:
 - The winner of the election was Dianne DeGette who got 73.8% of the vote and 272,892 votes
 
 ## Summary
-The report was produced from the python script PyPoll_Challenge_starter_code.py
-The dataset election_results.csv used in this report had the following comma separated fields
-    Ballot ID,County,Candidate
+The report was produced running the python script `PyPoll_Challenge_starter_code.py`<br>
+The dataset election_results.csv used in this report had the following comma separated fields<br>
+> Ballot ID,County,Candidate
 
 The script uses only the County and Candidate fields
 
 The same script can be modified to produce similar results with other datasets
 
 Example 1: Assuming that our new dataset contains the state information in place of county as below
-    Ballot ID,State,Candidate
+> Ballot ID,State,Candidate
 
 We can keep everything the same and just replace the "County" with "State" in lines 94 and 125
 
 Example 2: Additionaly if our new data set was using pipe delimited fields as below
-    Ballot ID|State|Candidate
+> Ballot ID|State|Candidate
 
-We could simply modify the line 39 and specify the delimiter
-    file_reader = csv.reader(election_data,delimiter='|')
+We could simply modify the line 39 and specify the delimiter<br>
+> file_reader = csv.reader(election_data,delimiter='|')
